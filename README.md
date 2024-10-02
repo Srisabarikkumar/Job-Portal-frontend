@@ -42,20 +42,20 @@ registeration. And this can be checked by using the random emails, which is gene
 
 ![alt text](src/assets/randomMail.png)
 
-2. On successful registeration, the email will be delivered according to the user role,
+2. On successful registeration, the email notification will be delivered according to the user role,
 and it can be seen on the temp mail website:
 
 ![alt text](src/assets/mailOutput.png)
 
 ![alt text](src/assets/mailcanOutput.png)
 
-3. Likewise candidate will get a mail on applying to a job:
+3. Candidate will receive a email notification confirming the job application:
 
 ![alt text](src/assets/mailList.png)
 
 ![alt text](src/assets/jobEmail.png)
 
-4. All the users with candidate role will get a email whenever a new job is posted
+4. All the users with candidate role will get a email notification whenever a new job is posted
 
 ![alt text](src/assets/newJob.png)
 
