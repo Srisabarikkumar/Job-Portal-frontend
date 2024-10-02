@@ -13,19 +13,19 @@ This is a repository of Job portal App created using React, React Router and Red
 
 # Getting Started
 
-# 1. Clone the repo
+ 1. Clone the repo
 
 ```bash
  git clone https://github.com/your-username/your-frontend-repo-name.git
 ```
 
-# 2. Install node modules 
+2. Install node modules 
 
 ```bash
  npm install
 ```
 
-# 3. Run the development server
+3. Run the development server
 
 ```bash
  npm run dev
@@ -61,14 +61,14 @@ and it can be seen on the temp mail website:
 
 # Demo credentials:
 
-# 1. Demo credentials for logging in as a candidate
+1. Demo credentials for logging in as a candidate
 
 ```bash
  samadog454@aiworldx.com
  samadog@123
 ```
 
-# 2. Demo credentials for logging in as a admin
+2. Demo credentials for logging in as a admin
 
 ```bash
  yiben40716@abatido.com
