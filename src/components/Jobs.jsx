@@ -28,7 +28,7 @@ const Jobs = () => {
     <div className="container">
       <Navbar />
       <div className="max-w-7xl mx-auto mt-5">
-        <div className="flex gap-5">
+        <div className="flex lg:flex-row md:flex-row flex-col gap-5">
           <div className="w-20%">
             <FilterCard />
           </div>
