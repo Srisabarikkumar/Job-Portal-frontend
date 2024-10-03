@@ -2,6 +2,8 @@
 
 This is a repository of Job portal App created using React, React Router and Redux.
 
+Deployed URL: https://job-portalapp-mern.netlify.app
+
 # Technologies Used
 
 * React
