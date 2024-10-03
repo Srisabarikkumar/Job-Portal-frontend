@@ -26,11 +26,7 @@ const HeroSection = () => {
           <span className="text-[#6A38C2]">dream job</span> with Job{" "}
           <span className="text-[#F83006]"> Portal</span>
         </h1>
-        <p className="lg:text-2xl md:text-xl sm:text-lg text-center mx-auto w-2/4">
-          Job portal provides wide range of access to the jobs, and you can
-          directly apply to them.
-        </p>
-        <div className="flex md:w-[40%] shadow-lg border border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto">
+        <div className="flex md:w-[40%] my-6 shadow-lg border border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto">
           <input
             type="text"
             placeholder="Find your dream jobs"
