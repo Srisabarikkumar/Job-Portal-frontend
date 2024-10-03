@@ -14,7 +14,7 @@ const useGetAllJobs = () => {
           `${JOB_API_END_POINT}/get?keyword=${searchedQuery}`,
           { withCredentials: true }
         );
-        if (res.data) {
+        if (res.data.success) {
           dispatch(setAllJobs(res.data.jobs));
         }
       } catch (error) {
