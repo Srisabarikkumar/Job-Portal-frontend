@@ -23,8 +23,8 @@ const ProfileSchema = Yup.object().shape({
   fullname: Yup.string().required("Full name is required"),
   email: Yup.string().email("Invalid email").required("Email is required"),
   phoneNumber: Yup.string().required("Phone number is required"),
-  bio: Yup.string.required("Bio is required"),
-  skills: Yup.string.required("Skills are required"),
+  bio: Yup.string().required("Bio is required"),
+  skills: Yup.string().required("Skills are required"),
   file: Yup.mixed().test("fileType", "Only PDF files are allowed", (value) => {
     if (!value) return true; // Allow empty file
     return value && ["application/pdf"].includes(value.type);
