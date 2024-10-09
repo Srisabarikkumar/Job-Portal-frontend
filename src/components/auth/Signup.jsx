@@ -134,7 +134,7 @@ const Signup = () => {
                 )}
               </div>
 
-              <div className="flex lg:flex-row md:flex-row flex-col justify-between">
+              <div className="flex flex-col justify-between">
                 <RadioGroup className="flex items-center gap-4 ">
                   <div className="flex items-center space-x-2">
                     <Field
@@ -158,7 +158,7 @@ const Signup = () => {
                   </div>
                 </RadioGroup>
                 {errors.role && touched.role && (
-                  <div className="text-red-500 text-center">{errors.role}</div>
+                  <div className="text-red-500">{errors.role}</div>
                 )}
 
                 <div className="flex items-center gap-2">
@@ -174,7 +174,7 @@ const Signup = () => {
                   />
                 </div>
                 {errors.file && touched.file && (
-                  <div className="text-red-500 text-center">{errors.file}</div>
+                  <div className="text-red-500">{errors.file}</div>
                 )}
               </div>
 
